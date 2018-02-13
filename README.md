@@ -271,6 +271,10 @@ DEBUG="explorer:*" node --harmony index.js
 npm i pm2 -g
 pm2 start --node-args="--harmony" --name explorer index.js
 ```
+#### Make service persistent accross reboots
+```bash
+pm2 save
+```
 
 ## Plugins
 
